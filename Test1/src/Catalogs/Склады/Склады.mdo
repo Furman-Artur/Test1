@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b036730-43ce-4593-bd69-14633998f5b3">
+  <producedTypes>
+    <objectType typeId="d866e47c-69b2-47c3-bead-01cbf9706323" valueTypeId="b238ff6d-343a-4162-9e66-e65092fb20f4"/>
+    <refType typeId="4dc50b3f-7e53-4634-982c-eac52de13d4d" valueTypeId="60f87338-0d01-4be6-baa8-b6d684f6792e"/>
+    <selectionType typeId="c583effe-7ce3-4bc4-9884-388d2627b80f" valueTypeId="dc694e19-25ee-4bfb-b053-068a6b6352f2"/>
+    <listType typeId="e367ecd7-b8b6-4586-9b19-8c79a8ab3112" valueTypeId="d166d32c-018c-4788-8c63-f21255100079"/>
+    <managerType typeId="958ba3b0-3ff9-4388-afc7-edc05edbe077" valueTypeId="6b24af36-491b-4a26-8c66-bf3659bf91e4"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9c7a2ed9-d062-4c5c-a97a-8f8e517e21a6">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
